@@ -5,9 +5,9 @@
 }
 .lead__logo {
   max-width: 255px;
-  /*min-width: 188px;
+  min-width: 188px;
   max-height: 69px;
-  min-height: 52px;*/
+  min-height: 52px;
   margin-top: 34px;
   padding-bottom: 91px;
 }
