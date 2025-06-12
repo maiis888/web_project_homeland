@@ -4,13 +4,14 @@
 .intro__content {
   display: flex;
   flex-direction: column;
-  margin: 92px auto; /*cambiar valores con media query 90, 64*/
+  margin: 92px auto;
   max-width: 984px;
 }
+
 .intro__title {
   font-weight: 900;
   font-size: 54px;
-  line-height: 58px;
+  line-height: 1.1;
   max-width: 830px;
   margin-bottom: 40px;
 }
@@ -21,21 +22,61 @@
 .intro__cite {
   font-weight: 400;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 1.4;
   margin-bottom: 10px;
   text-align: left;
 }
 .intro__author {
   font-weight: 400;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 1.4;
   text-align: right;
 }
 .intro__description {
-  font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
-  letter-spacing: 0%;
+  line-height: 1.63;
   max-width: 722px;
+}
+
+/* Entre 545px y 1024px */
+@media screen and (max-width: 1024px) and (min-width: 545px) {
+  .intro__content {
+    max-width: 720px;
+    margin: 90px 24px 88px;
+  }
+  .intro__title {
+    font-size: 45px;
+    max-width: 707px;
+  }
+  .intro__quote {
+    max-width: 720px;
+  }
+  .intro__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+    max-width: 720px;
+  }
+}
+
+/* 543px o menos (teléfonos pequeños) */
+@media screen and (max-width: 545px) {
+  .intro__content {
+    max-width: 288px;
+    margin: 64px 16px 64px;
+  }
+  .intro__title {
+    font-size: 32px;
+    max-width: 288px;
+  }
+  .intro__quote {
+    max-width: 288px;
+  }
+  .intro__cite {
+    line-height: 1.25;
+  }
+  .intro__description {
+    max-width: 288px;
+  }
 }
