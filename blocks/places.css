@@ -1,0 +1,87 @@
+.places__content {
+  display: flex;
+  flex-direction: column;
+  margin: 92px auto;
+  max-width: 987px;
+}
+
+.places__card {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 984px;
+  gap: 40px;
+  padding-bottom: 80px;
+}
+
+.places__image-container {
+  width: 100%;
+  max-width: 460px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 50%);
+  margin: 48px 0;
+}
+
+.places__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.places__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 290px;
+  height: 50px;
+  background-image: linear-gradient(to right, #0278fe, #003a7b);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 25%);
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.places__title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1;
+  max-width: 460px;
+  max-height: 152px;
+}
+
+.places__artista {
+  color: #aaa;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 12%;
+  text-transform: uppercase;
+  padding: 170px 0 8px;
+}
+.places__column_text {
+  width: 484px;
+}
+.places__autor {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0%;
+  padding-bottom: 48px;
+}
+
+.places__description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  letter-spacing: 0%;
+}
+
+/*RESPONSIVIDAD Y PUNTOS DE QUIEBRE*/
+/* Entre 545px y 1024px */
+@media screen and (max-width: 1024px) and (min-width: 545px) {
+}
+
+/* 543px o menos */
+@media screen and (max-width: 545px) {
+}
