@@ -1,0 +1,37 @@
+.photo-grid {
+  display: grid;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 1184px;
+  margin: auto;
+  padding: 0 16px;
+}
+
+.photo-grid__item {
+  margin: 0;
+}
+
+.photo-grid__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/*RESPONSIVIDAD Y PUNTOS DE QUIEBRE*/
+/* Entre 545px y 1024px */
+@media screen and (max-width: 1024px) and (min-width: 545px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 543px o menos */
+@media screen and (max-width: 545px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+}
