@@ -21,3 +21,8 @@ body {
   max-width: 1280px;
   min-width: 320px;
 }
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
