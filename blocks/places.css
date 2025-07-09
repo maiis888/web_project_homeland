@@ -65,7 +65,6 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
 }
 
 .places__artista {
@@ -73,7 +72,6 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
-  letter-spacing: 12%;
   padding-bottom: 8px;
   text-transform: uppercase;
 }
@@ -82,7 +80,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
-  letter-spacing: 0%;
 }
 
 @media screen and (max-width: 544px) {
